@@ -1,0 +1,10 @@
+block.settings.extra_blocks_simple_text_block:
+  type: block_settings
+  label: 'Simple text block'
+  mapping:
+    text:
+      type: string
+      label: 'Text to display'
+    html_element:
+      type: string
+      label: 'HTML element'

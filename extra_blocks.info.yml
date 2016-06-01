@@ -1,0 +1,5 @@
+name: Extra Blocks
+type: module
+description: Adds extra block types
+core: 8.x
+package: Other
