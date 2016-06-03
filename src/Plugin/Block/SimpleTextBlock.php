@@ -57,6 +57,7 @@ class SimpleTextBlock extends BlockBase {
     $text = $this->configuration['text'];
 
     return array(
+      '#type' => 'markup',
       '#markup' => "<$el>" . $text . "</$el>",
     );
   }
