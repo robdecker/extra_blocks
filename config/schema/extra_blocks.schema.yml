@@ -8,3 +8,14 @@ block.settings.extra_blocks_simple_text_block:
     html_element:
       type: string
       label: 'HTML element'
+
+block.settings.extra_blocks_formatted_text_block:
+  type: block_settings
+  label: 'Simple text block'
+  mapping:
+    text:
+      type: string
+      label: 'Text to display'
+    format:
+      type: string
+      label: 'Text format'
